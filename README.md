@@ -71,8 +71,9 @@ formats the code and make it consistent (uint256 -> all of them )
 
 ---
 
-- [x] console (Counter, test, log int)
-
+- /[x] console (Counter, test, log int)
+     forge-std/console.log -> for testing purpose
+     console.log-> cannot print only int -> logInt
 ```shell
 forge test --match-path test/Console.t.sol -vv
 ```
