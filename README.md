@@ -32,9 +32,9 @@ forge test --match-path test/HelloWorld -vvvv
 - [x] Test
   - counter app
   - test setup, ok, fail
-  - match
+  - match       `--match-path`
   - verbose
-  - gas report
+  - gas report    `-- gas-report`
 
 ```shell
 forge test --match-path test/Counter.t.sol -vvv --gas-report
@@ -64,9 +64,9 @@ npm i @openzeppelin/contracts
 - [x] Formatter
 
 ```shell
-forge fmt
+forge fmt   
 ```
-
+formats the code and make it consistent (uint256 -> all of them )
 ---
 
 ---
